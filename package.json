@@ -5,12 +5,22 @@
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
     "react": "16.8.0",
     "react-dom": "16.8.0",
     "react-scripts": "3.0.1"
   },
   "devDependencies": {
     "typescript": "3.8.3"
+  },
+  "prettier": {
+    "trailingComma": "none",
+    "tabWidth": 4,
+    "useTabs": true,
+    "semi": false,
+    "singleQuote": true
   },
   "scripts": {
     "start": "react-scripts start",
@@ -23,5 +33,6 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "packageManager": "yarn@3.0.2"
 }
